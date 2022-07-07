@@ -53,7 +53,7 @@ jobs:
 workflows:
   print-myName-workflow:
     jobs:
-      - output_circleci_pipeline_id:
+      - output_circleci_pipeline_id
       - save_hello_world_output
       - print_output_file:
           requires:
