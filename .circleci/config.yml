@@ -31,7 +31,7 @@ jobs:
                 at: ~/
       - run:
           name: "Print from Output file"
-          command: Segun ~/output.txt
+          command: cat ~/output.txt
             
       
 
